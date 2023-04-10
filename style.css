@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7F7F7;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    background-color: white;
+}
+.do{
+    font-family:'Assistant', sans-serif;
+    color: #00a5ec;
+    font-size: 40px;
+}
+.to{
+    font-family: 'Assistant', sans-serif;
+    font-size: 40px;
+}
+.cir{
+    border-radius: 50%;
+    background-color: #00a5ec;
+    border: 2px solid #00a5ec;
+    position: absolute;
+    top: 130px;
+    right: 400px;
+    width: 40px;
+    height: 40px;
+    padding-left: 7px;
+    padding-top: 5px;
+}
+.text{
+    font-size: 22px;
+    color: #424242;
+    font-family: Inter;
+    position: absolute;
+    top: 135px;
+    right: 245px;
+}
+.lowerContainer{
+    display: flex;
+}
+
+.todo{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 150%;
+    color: #00a5ec;
+    font-size: 12px;
+    font-family: 'Inter';
+    padding: 10px 10px 10px 10px;
+}
+.t1{
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+.t2{
+    position: relative;
+    top: 200px;
+    left: 150px;
+}
+.t3{
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+.t4{
+    position: relative;
+    top: 520px;
+    right: 780px;
+}
+.t5{
+    position: relative;
+    top: 520px;
+    right: 725px;
+    margin-bottom: 800px;
+}
+.check1{
+    text-decoration: line-through;
+    color: #c2c2c2;
+    font-size: 18px;
+    text-align: left;
+}
+.check2{
+    color:#424242;
+    font-size: 18px;
+    text-align: left;
+}
+.ho:hover{
+    box-shadow: 0px 0px 5px gray;
+}
+.p{
+    filter: blur(8px);
+}
+.task{
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    bottom: 1000px;
+    left: 40%;
+    border-radius: 5%;
+}
+button{
+ width: 80px;
+ height: 30px;
+ background-color: #00a5ec;
+ text-align: center;
+ color: white;
+ float: right;
+ margin-top: 35px;
+ margin-right: 25px;
+ border-radius: 5px;
+ border:#00a5ec;
+}
+.task2{
+    font-size: 22px;
+    color: #424242;
+    font-family: Inter;
+}
+input[type="text"] {
+    width: 320px;
+    height: 30px;
+    background-color: #F7F7F7;
+    margin: 25px 15px ;
+}
+.cross{
+    color: #858585;
+    margin-left: 145px;
+    font-style: normal;
+}
+.back{
+   position: relative;
+   left: 500px;
+   top: 50px;
+}
+.btext{
+    font-size: 22px;
+    color: #424242;
+    font-family: Inter;
+    position: absolute;
+    top: 135px;
+    left: 555px;
+}
+.doo{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 150%;
+    color: #00a5ec;
+    font-size: 12px;
+    font-family: 'Inter';
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+.t6{
+ position: relative;
+ top: 130px;
+ left: 600px;
+}
+.display{
+    display: flex;
+}
+.q{
+    filter: blur(8px);
+}
+.task3{
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    bottom: 210px;
+    left: 550px;
+    border-radius: 5%;
+}
