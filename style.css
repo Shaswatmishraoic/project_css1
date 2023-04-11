@@ -12,6 +12,7 @@ nav{
     line-height: 75px;
     padding: 0px 100px;
     background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 .do{
     font-family:'Assistant', sans-serif;
@@ -23,16 +24,13 @@ nav{
     font-size: 40px;
 }
 .cir{
-    border-radius: 50%;
-    background-color: #00a5ec;
-    border: 2px solid #00a5ec;
     position: absolute;
     top: 130px;
     right: 400px;
-    width: 40px;
-    height: 40px;
-    padding-left: 7px;
-    padding-top: 5px;
+}
+.size{
+    width: 32px;
+    height: 32px;
 }
 .text{
     font-size: 22px;
@@ -57,10 +55,22 @@ nav{
     font-family: 'Inter';
     padding: 10px 10px 10px 10px;
 }
+.todo1{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 150%;
+    color: #00a5ec;
+    font-size: 12px;
+    font-family: 'Inter';
+    padding: 10px 10px 10px 10px;
+}
 .t1{
     position: relative;
     top: 200px;
     left: 100px;
+    
 }
 .t2{
     position: relative;
@@ -181,4 +191,7 @@ input[type="text"] {
     bottom: 210px;
     left: 550px;
     border-radius: 5%;
+}
+.go{
+    text-decoration: none;
 }
