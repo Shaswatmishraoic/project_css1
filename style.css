@@ -28,8 +28,8 @@ nav{
     right: 400px;
 }
 .size{
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
 }
 .text{
     font-size: 22px;
@@ -120,7 +120,7 @@ input[type="text"] {
 }
 .cross{
     color: #858585;
-    margin-left: 145px;
+    margin-left: 150px;
     font-style: normal;
 }
 .back{
@@ -133,8 +133,8 @@ input[type="text"] {
     color: #424242;
     font-family: Inter;
     position: absolute;
-    top: 135px;
-    left: 555px;
+    top: 145px;
+    left: 560px;
 }
 .doo{
     width: 400px;
